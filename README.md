@@ -13,4 +13,4 @@ The framework integrates water quality forecasting with economic risk propagatio
 3. **MRIO-based risk propagation and vulnerability**
    Sector-level LWSR is propagated through interregional supply chains using a Ghosh-based MRIO model to obtain virtual water scarcity risk (VWSR). Import vulnerability is quantified using a Herfindahl–Hirschman Index (HHI).
 
-## Repository structure
+
