@@ -5,7 +5,7 @@ input = sum(MRIO.Z) + MRIO.Import(1, 1:13146) + sum(MRIO.VA(:, 1:13146), 1);
 %% input
 input = input(1, 1:13146)
 input(input ==0) = eps
-B = MRIO.Z ./ input
+B = MRIO.Z ./ input'
 LWSR = readmatrix('C:\Users\DELL\Desktop\LWSR\2012LWSR.xlsx');
 %% WSR
 E = eye(size(B));
